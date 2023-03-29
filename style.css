@@ -1,3 +1,10 @@
 body{background-color: beige;}
 
 h1{color: black;font-size: 100px;}
+h2{color: black; font-size: 60px;}
+
+.listas{ background-color: lightblue; color: black;
+}
+
+#n1{font-size: 25px;}
+#n2{font-size: 20px;}
