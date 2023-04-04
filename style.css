@@ -1,5 +1,6 @@
 *{
     border: 2px solid beige;
+    font-family: 'Jost', sans-serif;
 }
 
 header{
@@ -9,6 +10,21 @@ header{
     text-align: center;
     margin: 30px;
     padding: 30px;
+    /* background-color: blue; */
+    width: 90%;
+    position: relative;
+    border: none;
+}
+
+.nav{
+    display: flex;
+    text-align: center;
+    width: 90%;
+    position: fixed;
+    /* background-color: red; */
+    margin: auto;
+    overflow: hidden;
+    align-items: center;
 }
 
 h1{
@@ -16,49 +32,77 @@ h1{
     width: 30%;
     float: left;
     margin: 20px;
+    font-family: 'Jost', sans-serif;
 }
-.nav{
+
+.contenedor ul{
+    list-style-type: none;
+    margin: 0;
+    margin-left: 50px;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    border: none;
+}
+
+.contenedor li{
+    display: flex;
     float: left;
+    flex-direction: column;
     overflow: hidden;
     padding: 10px;
     margin: 10px;
-}
-
-.barra{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-    text-align: center;
+    width: auto;
+    border: none;
 }
 
 li{
-    float: left;
+    border: none;
 }
 
-li a{
+.contenedor li a{
     display: block;
     color: black;
     text-decoration: none;
     text-align: center;
+    border: none;
 }
 
 
-
+<!--a partir de aca va el main-->
 
 h2{
     color: black; 
     font-size: 60px;
 }
 
-
-#saludo{
-    position: relative;
+.cajados{
+    margin-top: 40px;
 }
+
+main{
+    border: none;
+}
+#segunda{
+    border: none;
+    margin: 20px;
+}
+
 .listas{ 
     background-color: lightblue; 
     color: black;
+    overflow: hidden;
+    text-align: center;
+    border: none;
+}
+
+.listas li a{
+    justify-content: center;
+    float: left;
+    border: none;
+    text-decoration: none;
+    color: black;
+
 }
 
 #n1{
@@ -67,4 +111,9 @@ h2{
 
 #n2{
     font-size: 20px;
+}
+
+p{
+    border: none;
+    padding: 20px;
 }
