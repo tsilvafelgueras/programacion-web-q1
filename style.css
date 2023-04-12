@@ -1,12 +1,12 @@
 *{
     font-family: 'Jost', sans-serif;
 }
+
 header{
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    padding-top: 30px;
     width: 100%;
     position: relative;
     padding: 37.9px 0px 37.9px 0px;
@@ -21,7 +21,6 @@ body{
     justify-content: space-between;
     width: 100%;
     position: fixed;
-    margin: auto;
     align-items: center;
     background-color: black;
 }
