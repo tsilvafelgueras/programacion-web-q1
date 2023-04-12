@@ -9,7 +9,7 @@ header{
     padding-top: 30px;
     width: 100%;
     position: relative;
-    padding: 37.9px 0px 40px 0px;
+    padding: 37.9px 0px 37.9px 0px;
 
 }
 body{
@@ -30,19 +30,16 @@ h1{
     color: white;
     padding-left: 2vw;
 }
+
 .contenedor ul{
     list-style-type: none;
     margin: 0;
-    margin-left: 50px;
-    padding: 0;
-    text-align: center;
 }
 
 .contenedor li{
     float: left;
     padding: 10px;
     margin: 10px;
-    width: auto;
 }
 
 .contenedor li a{
@@ -64,9 +61,7 @@ h2{
     margin-top: 40px;
 }
 
-main{
-    border: none;
-}
+
 #segunda{
     border: none;
     margin: 20px;
@@ -82,7 +77,6 @@ main{
 
 .listas li a{
     justify-content: center;
-    border: none;
     text-decoration: none;
     color: black;
 
