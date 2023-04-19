@@ -3,24 +3,23 @@
 }
 
 header{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
+    background-color: black;
     width: 100%;
     position: relative;
     padding: 37.9px 0px 37.9px 0px;
-
+    margin:0;
+    position: sticky;
+    top:0;
 }
 body{
     margin:0;
 }
 
 .nav{
-    display: flex;
+    
     justify-content: space-between;
     width: 100%;
-    position: fixed;
+
     align-items: center;
     background-color: black;
 }
@@ -32,24 +31,24 @@ h1{
 
 .contenedor ul{
     list-style-type: none;
-    margin: 0;
+
+
 }
 
 .contenedor li{
-    float: left;
+    display: inline;
     padding: 10px;
     margin: 10px;
 }
 
 .contenedor li a{
-    display: block;
     color: white;    
     text-decoration: none;
     text-align: center;
 }
 
 
-<!--a partir de aca va el main-->
+/*a partir de aca va el main*/
 
 h2{
     color: black; 
