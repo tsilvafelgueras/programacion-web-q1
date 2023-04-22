@@ -5,40 +5,41 @@
 header{
     background-color: black;
     width: 100%;
-    position: relative;
-    padding: 37.9px 0px 37.9px 0px;
     margin:0;
     position: sticky;
     top:0;
 }
+
 body{
     margin:0;
 }
 
 .nav{
-    
+    display: flex;
     justify-content: space-between;
     width: 100%;
-
     align-items: center;
-    background-color: black;
+    /* background-color: black; */
 }
 
 h1{
-    color: white;
     padding-left: 2vw;
+    font-size: 1.5vw;
+}
+
+h1 a{
+    text-decoration: none;
+    color: white;
 }
 
 .contenedor ul{
     list-style-type: none;
-
-
 }
 
 .contenedor li{
     display: inline;
-    padding: 10px;
-    margin: 10px;
+    margin: 3vw;
+    font-size: 18px;
 }
 
 .contenedor li a{
@@ -47,7 +48,9 @@ h1{
     text-align: center;
 }
 
-
+div.contenedor ul li a.current{
+    color: red;
+}
 /*a partir de aca va el main*/
 
 h2{
@@ -91,4 +94,25 @@ h2{
 p{
     border: none;
     padding: 20px;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+}
+
+.foot{
+    height: 54px;
+    display: table-cell;
+    vertical-align: middle;
+    width: 1%;
+    position: relative;
+}
+
+h6{
+    color: #bcbcbc;
+    font-size: 12px;
+    margin: 0;
+    font-family:'Montserrat',sans-serif;
+    font-weight: 400;
 }
