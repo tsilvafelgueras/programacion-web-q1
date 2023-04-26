@@ -3,7 +3,7 @@
 }
 
 header{
-    background-color: black;
+    background-color: white;
     width: 100%;
     margin:0;
     position: sticky;
@@ -21,15 +21,17 @@ body{
     align-items: center;
     /* background-color: black; */
 }
-
+#navbarcelular{
+    display: none;
+}
 h1{
     padding-left: 2vw;
-    font-size: 1.5vw;
+    font-size: 2vw;
 }
 
 h1 a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .contenedor ul{
@@ -39,11 +41,11 @@ h1 a{
 .contenedor li{
     display: inline;
     margin: 3vw;
-    font-size: 18px;
+    font-size: 1.5vw;
 }
 
 .contenedor li a{
-    color: white;    
+    color: black;    
     text-decoration: none;
     text-align: center;
 }
@@ -51,6 +53,26 @@ h1 a{
 div.contenedor ul li a.current{
     color: red;
 }
+
+@media screen and (max-width:768px){
+    #logo{
+        font-size: 8vw;
+    }
+    #items{
+        display:none;
+    }
+    #navbarcelular{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }
+    #navbarcompu{
+        display: none;
+    }
+    
+}
+
 /*a partir de aca va el main*/
 
 h2{
