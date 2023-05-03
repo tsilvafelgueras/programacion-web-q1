@@ -14,64 +14,45 @@ body{
     margin:0;
 }
 
-.nav{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    align-items: center;
-    /* background-color: black; */
+a{
+    text-decoration: none;
 }
-#navbarcelular{
-    display: none;
-}
+
 h1{
     padding-left: 2vw;
     font-size: 2vw;
-}
-
-h1 a{
-    text-decoration: none;
     color: black;
+    text-decoration: none;
+    font-weight: 1000;
+}
+.navbar-brand{
+    padding-bottom: 0;
 }
 
-.contenedor ul{
+.navegador ul{
     list-style-type: none;
+    align-items: center;
 }
-
-.contenedor li{
+.navbar{
+    padding-bottom: 0;
+    height: 7vw;
+}
+.navegador li{
     display: inline;
     margin: 3vw;
     font-size: 1.5vw;
 }
 
-.contenedor li a{
+.navegador li a{
     color: black;    
     text-decoration: none;
     text-align: center;
 }
 
-div.contenedor ul li a.current{
+div.navegador ul li a.current{
     color: red;
 }
 
-@media screen and (max-width:768px){
-    #logo{
-        font-size: 8vw;
-    }
-    #items{
-        display:none;
-    }
-    #navbarcelular{
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        align-items: center;
-    }
-    #navbarcompu{
-        display: none;
-    }
-    
-}
 
 /*a partir de aca va el main*/
 
@@ -138,3 +119,69 @@ h6{
     font-family:'Montserrat',sans-serif;
     font-weight: 400;
 }
+input{
+    border-radius: 0;
+    border: 1px solid #303030;
+    background-color: white;
+    padding: 15px;
+    margin: 15px ;
+}
+/* 
+.row row-cols-3{
+    width: 100%;
+}
+.col{
+    padding: 0;
+}
+.col img{
+    margin: 0;
+    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+#col1 img{
+    height: 20vw;
+}
+
+#col2 img{
+    height: 18vw;
+}
+#col3 img{
+    height: 18vw;
+} */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin: 0;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 1px;
+  }
+  
+  .column img {
+    margin-top: 2px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
