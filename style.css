@@ -3,7 +3,7 @@
 }
 
 header{
-    background-color: white;
+    background-color: black;
     width: 100%;
     margin:0;
     position: sticky;
@@ -12,6 +12,7 @@ header{
 
 body{
     margin:0;
+    background-color: black;
 }
 
 a{
@@ -21,7 +22,7 @@ a{
 h1{
     padding-left: 2vw;
     font-size: 2vw;
-    color: black;
+    color: white;
     text-decoration: none;
     font-weight: 1000;
 }
@@ -44,7 +45,7 @@ h1{
 }
 
 .navegador li a{
-    color: black;    
+    color: white;    
     text-decoration: none;
     text-align: center;
 }
@@ -100,7 +101,7 @@ p{
 }
 
 footer{
-    background-color: black;
+    background-color: #bcbcbc;
     text-align: center;
 }
 
@@ -113,7 +114,7 @@ footer{
 }
 
 h6{
-    color: #bcbcbc;
+    color: black;
     font-size: 12px;
     margin: 0;
     font-family:'Montserrat',sans-serif;
@@ -154,7 +155,7 @@ input{
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
-    margin: 0;
+    margin: 0;    
   }
   
   /* Create four equal columns that sits next to each other */
