@@ -37,3 +37,8 @@ console.log(bd)
 
 // array1.push(3.14)
 // console.log(array1);
+
+let nombreCompra = document.getElementById("name")
+// nombreCompra.innerHTML= 
+
+// onClick=
