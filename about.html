@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Luli de la Vega - Contact</title>
+    <title>DELAVEGA MAKEUP - ABOUT</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Mukta&display=swap" rel="stylesheet">
@@ -27,20 +27,30 @@
               <li class="nav-item">
                 <a class="nav-link" href="./about.html" aria-current="page">ABOUT</a>
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link" href="#">WORKS</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">TEAM</a>
+              </li> -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  WORKSHOPS
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./workshops.html#autoclass">AUTOMAKEUP</a></li>
+                  <li><a class="dropdown-item" href="./workshops.html#one2one">ONE2ONE</a></li>
+                  <li><a class="dropdown-item" href="./workshops.html#brideswork">BRIDES</a></li>
+                </ul>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   SERVICES
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">CURSOS</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">TURNOS</a></li>
+                  <li><a class="dropdown-item" href="./services.html#social">SOCIAL</a></li>
+                  <li><a class="dropdown-item" href="./services.html#brides">BRIDES</a></li>
+                  <li><a class="dropdown-item" href="./services.html#xv">XV</a></li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -54,11 +64,43 @@
         </div>
       </nav>
     </header>
-
-
     <main>
-        <!-- <img src="Fotos Pagina\IMG_0547.jpeg" alt="luli"> -->
-    
+      <div id="contain">
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="Fotos Pagina\IMG_0979.JPEG" class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="Fotos Pagina\IMG_0981.JPEG" class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="Fotos Pagina\IMG_0982.JPEG" class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="Fotos Pagina\IMG_0984.JPEG" class="d-block w-100" alt="">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <div class="cardintro">
+          <div class="card-header">About Me</div>
+          <div class="card-body">
+            <h5 class="card-title">Luli de la Vega</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sequi non, quibusdam alias veritatis laboriosam quidem voluptas repellat quis quam? Non voluptatem, ab nobis placeat amet impedit sequi. Odit, ipsum.</p>
+            <p class="card-text" id="p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem laborum nihil excepturi fuga molestias, aliquam similique quis ipsa voluptas vel cupiditate perspiciatis quam omnis? Dolor beatae dolorum sit necessitatibus dolore.</p>
+          </div>
+        </div>
+      </div>
+        
     </main>
 
     <footer>

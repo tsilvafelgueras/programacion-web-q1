@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Luli de la Vega - Contact</title>
+    <title>DELAVEGA MAKEUP - CONTACT</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Mukta&display=swap" rel="stylesheet">
@@ -27,23 +27,30 @@
             <li class="nav-item">
               <a class="nav-link" href="./about.html">ABOUT</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="#">WORKS</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">TEAM</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">SERVICIOS</a>
+            </li> -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                WORKSHOPS
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./workshops.html#autoclass">AUTOMAKEUP</a></li>
+                <li><a class="dropdown-item" href="./workshops.html#one2one">ONE2ONE</a></li>
+                <li><a class="dropdown-item" href="./workshops.html#brideswork">BRIDES</a></li>
+              </ul>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 SERVICES
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">CURSOS</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">TURNOS</a></li>
+                <li><a class="dropdown-item" href="./services.html#social">SOCIAL</a></li>
+                <li><a class="dropdown-item" href="./services.html#brides">BRIDES</a></li>
+                <li><a class="dropdown-item" href="./services.html#xv">XV</a></li>
               </ul>
             </li>
             <li class="nav-item">
@@ -104,14 +111,14 @@
           <div class="row g-2">
             <div class="col-md">
               <div class="form-floating">
-                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                <textarea class="form-control" placeholder="Leave a comment here" id="consultbox" style="height: 100px"></textarea>
                 <label for="floatingTextarea2">Consulta</label>
               </div>
             </div>
           </div>
           <div class="row g-2">
             <div class="col-12">
-              <button type="submit" class="btn btn-primary">Enviar</button>
+              <button type="button" class="btn btn-primary" id="enviarDatos">Enviar</button>
             </div>
           </div>
         </form>
@@ -125,5 +132,6 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>

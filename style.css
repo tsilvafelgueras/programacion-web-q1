@@ -112,11 +112,6 @@ h2{
     font-size: 20px;
 }
 
-p{
-    border: none;
-    padding: 20px;
-}
-
 footer{
     background-color: black;
     text-align: center;
@@ -171,6 +166,47 @@ h6{
 .column2{
     width: 60%;
 }
+
+#contain{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+#carousel{
+    width: 40vw;
+    /* margin-left: 5vw; */
+    margin-top: 3vw;
+}
+.cardintro{
+    width: 40vw;
+    background-color: white;
+    margin-left: 3vw;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 10px;
+}
+.card-text{
+    padding: 1.5vw;
+    padding-bottom: 0;
+    font-size: 1vw;
+}
+
+.card-title{
+    margin-left: 1.5vw;
+    margin-top: 0.5vw;
+    font-weight: bold;
+    font-size: 1.4vw;
+    margin-bottom: 0;
+}
+.card-header{
+    font-size: 1.5vw;
+    padding-left: 1vw;
+}
+/* .card-body{
+    padding: 0.5vw;
+    padding-bottom: 1vw;
+} */
 @media screen and (max-width: 800px) {
     .column {
         flex: 50%;
@@ -178,6 +214,32 @@ h6{
         }
     .cajaGrande{
         flex-wrap: wrap;
+    }
+    #contain{
+        flex-wrap: wrap;
+        margin-left: 0%;
+        justify-content: center;
+    }
+    #carousel{
+        margin-left: 0%;
+        width: 100%;
+        margin-top: 0;
+    }
+    .cardintro{
+        width: 100%;
+        margin-left: 0;
+        margin: 2vw;
+        margin-top: 3vw;
+    }
+    .card-text{
+        font-size: 3.5vw ;
+    }
+    .card-title{
+        font-size: 5vw;
+    }
+    .card-header{
+        font-size: 6vw;
+        padding-left: 5vw;
     }
 }
 @media screen and (max-width: 600px) {
@@ -195,7 +257,11 @@ h6{
         max-width: 100%;
         margin: 2vw;
     }
+    .cardintro{
+        width: 100%;
+    }
 }
+
 
 /* CONTACTO HTML */
 
@@ -213,12 +279,23 @@ input{
     margin: auto;
 }
 
-.card-title{
-    margin-left: 1.5vw;
-    font-weight: bold;
-    margin-bottom: 0;
+
+
+
+
+/* h5{
+    color: WHITE;
+} */
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    display: none;
 }
 
-.card-text{
-    padding: 1.5vw;
+.carousel-item{
+    transition: transform .7s ease-in-out;;
 }
+
+#p2{
+    padding-bottom: 1vw;
+}
+
