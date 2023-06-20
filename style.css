@@ -174,9 +174,9 @@ h6{
     justify-content: center;
 }
 #carousel{
-    width: 40vw;
+    width: 39vw;
     /* margin-left: 5vw; */
-    margin-top: 3vw;
+    border-radius: 10px;
 }
 .cardintro{
     width: 40vw;
@@ -279,10 +279,6 @@ input{
     margin: auto;
 }
 
-
-
-
-
 /* h5{
     color: WHITE;
 } */
@@ -299,3 +295,52 @@ input{
     padding-bottom: 1vw;
 }
 
+/* .row-cols-1{
+    flex: 0 0 auto;
+    width: 33.3%;
+} */
+
+/* @media (min-width: 768px){
+    .row-cols-md-2{
+        flex: 0 0 auto;
+        width: 33.3%;
+    }
+}    */
+
+#works{
+    float: left;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(237, 235, 246);
+    width: 100%;
+}
+
+#consistof{
+    color: black;
+}
+
+#listita{
+    padding-top: 0%;
+    margin-left: 20px;
+}
+
+#autoclass{
+    margin: 1vw;
+}
+
+/* #reserv{
+    width: 20%;
+    margin-top: 20%;
+} */
+
+#reserv {
+    margin: 20%;
+    font-size: 1.5rem; /* Ajusta el tamaño de fuente según tus preferencias */
+  }
+  
+  #reserv:hover {
+    transform: scale(1.1); /* Agrega un efecto de escala al pasar el cursor sobre el botón */
+  }
+  
