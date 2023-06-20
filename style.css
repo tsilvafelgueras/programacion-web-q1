@@ -207,6 +207,11 @@ h6{
     padding: 0.5vw;
     padding-bottom: 1vw;
 } */
+
+#autoclass{
+    margin: 1vw;
+}
+
 @media screen and (max-width: 800px) {
     .column {
         flex: 50%;
@@ -240,6 +245,9 @@ h6{
     .card-header{
         font-size: 6vw;
         padding-left: 5vw;
+    }
+    #autoclass{
+        margin: 4vw;
     }
 }
 @media screen and (max-width: 600px) {
@@ -307,16 +315,6 @@ input{
     }
 }    */
 
-#works{
-    float: left;
-    flex-direction: row;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: rgb(237, 235, 246);
-    width: 100%;
-}
-
 #consistof{
     color: black;
 }
@@ -326,9 +324,7 @@ input{
     margin-left: 20px;
 }
 
-#autoclass{
-    margin: 1vw;
-}
+
 
 /* #reserv{
     width: 20%;
