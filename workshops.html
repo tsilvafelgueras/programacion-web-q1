@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> DELAVEGA MAKEUP - SERVICES</title>
+    <title>DELAVEGA MAKEUP - SERVICES</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,9 +32,9 @@
                       WORKSHOPS
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="./workshops.html#autoclass">AUTOMAKEUP</a></li>
-                      <li><a class="dropdown-item" href="./workshops.html#one2one">ONE TO ONE</a></li>
-                      <li><a class="dropdown-item" href="./workshops.html#brideswork">BRIDES</a></li>
+                      <li><a class="dropdown-item" href="./workshops.html#cardAuto">AUTOMAKEUP</a></li>
+                      <li><a class="dropdown-item" href="./workshops.html#cardOne">ONE TO ONE</a></li>
+                      <li><a class="dropdown-item" href="./workshops.html#cardBrides">BRIDES</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
@@ -60,19 +60,10 @@
     </header>
     <main>
       <div class="workshop">
-        <!-- <img src="Fotos Pagina\IMG_0999.jpeg" alt=""> -->
         <h2 class="text-center" style="color: white;">WORKSHOPS</h2>
-        <!-- <div class="card text-bg-dark">
-          <img src="Fotos Pagina\IMG_0999.jpeg" class="card-img" alt="...">
-          <div class="card-img-overlay">
-            <h2 class="card-title">WORKSHOPS</h2>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small>Last updated 3 mins ago</small></p>
-          </div>
-        </div> -->
       </div>
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
+      <div class="row row-cols-1 row-cols-md-3 g-4" id="int">
+        <div class="col" id="cardAuto">
           <div class="card h-100">
             <img src="Fotos Pagina/IMG_0976.JPEG" class="card-img-top" alt="...">
             <div class="card-body">
@@ -82,7 +73,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col" id="cardOne">
           <div class="card h-100">
             <img src="Fotos Pagina/IMG_0040.jpeg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -92,7 +83,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col" id="cardBrides">
           <div class="card h-100">
             <img src="Fotos Pagina\IMG_0979.JPEG" class="card-img-top" alt="...">
             <div class="card-body">
@@ -103,36 +94,76 @@
           </div>
         </div>
       </div>
-      <div id="autoclass">
-        <div class="card mb-3">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="..." class="img-fluid rounded-start" alt="...">
-            </div>
-            <div class="col-md-6" style="max-width: 540px;">
-              <div class="card-body">
-                <h5 class="card-title">Taller de Automaquillaje</h5>
-                <h6 class="card-text" id="consistof">Consiste en:</h6>
-                <ul class="card-text" id="listita">
-                  <li>Lorem ipsum dolor sit amet aborum fugiat voluptates ea!</li>
-                  <li>Lorem ipsum dolor sit amet aborum fugiat voluptates ea!</li>
-                  <li>Lorem ipsum dolor sit amet aborum fugiat voluptates ea!</li>
-                </ul>
+      <div id="deepinfo">
+        <div id="autoclass">
+          <div class="card mb-3" id="cardsinfo">
+            <div class="row g-0" id="cajitaAuto">
+              <div class="col-md-4">
+                <!-- <img src="..." class="img-fluid rounded-start" alt="..."> -->
               </div>
-            </div>
-            <div class="col">
-              <div class="text-center">
-                <a href="#" class="btn btn-primary" id="reserv">Reservar</a>
+              <div class="col-md-6" style="max-width: 540px;">
+                <div class="card-body">
+                  <h5 class="card-title" style="margin-top: 50px;">Taller de Automaquillaje</h5>
+                  <ul class="card-text" id="listita">
+                    <li>Lorem ipsum dolor sit amet aborum fugiat voluptates ea!</li>
+                    <li>Lorem ipsum dolor sit amet aborum fugiat voluptates ea!</li>
+                    <li>Lorem ipsum dolor sit amet aborum fugiat voluptates ea!</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col">
+                <div class="text-center"><button type="button" class="btn btn-primary" id="reservAutomaq">Reservar</button></div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div id="one2one">
-          <h5>HOLAAA ESTO SON LOs turnos novias</h5>
-      </div>
-      <div id="brideswork">
-          <h5>HOLAAA ESTO SON LOs turnos quinces</h5>
+        <div id="one2one">
+          <div class="card mb-3" id="cardsinfo">
+            <div class="row g-0" id="cajitaOne">
+              <div class="col-md-4">
+                <!-- <img src="..." class="img-fluid rounded-start" alt="..."> -->
+              </div>
+              <div class="col-md-6" style="max-width: 540px;">
+                <div class="card-body">
+                  <h5 class="card-title" style="margin-top: 50px;">Clases One to One</h5>
+                  <ul class="card-text" id="listita">
+                    <li>Lorem ipsum dolor sit amet aborum fugiat voluptates ea!</li>
+                    <li>Lorem ipsum dolor sit amet aborum fugiat voluptates ea!</li>
+                    <li>Lorem ipsum dolor sit amet aborum fugiat voluptates ea!</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col">
+                <div class="text-center">
+                  <button type="button" class="btn btn-primary" id="reservOne2one">Reservar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="brideswork">
+          <div class="card mb-3" id="cardsinfo">
+            <div class="row g-0" id="cajitaBrides">
+              <div class="col-md-4">
+                <!-- <img src="..." class="img-fluid rounded-start" alt="..."> -->
+              </div>
+              <div class="col-md-6" style="max-width: 540px;">
+                <div class="card-body">
+                  <h5 class="card-title" style="margin-top: 50px;">Taller Novias</h5>
+                  <ul class="card-text" id="listita">
+                    <li>Lorem ipsum dolor sit amet aborum fugiat voluptates ea!</li>
+                    <li>Lorem ipsum dolor sit amet aborum fugiat voluptates ea!</li>
+                    <li>Lorem ipsum dolor sit amet aborum fugiat voluptates ea!</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col">
+                <div class="text-center">
+                  <button type="button" class="btn btn-primary" id="reservBrides">Reservar</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
     <footer>
@@ -140,6 +171,8 @@
             <h6>© 2023 de la Vega Make Up | Site Design: TSF</h6>
         </div>
     </footer>
+  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <script src="./reserv.js"></script>
 </body>
 </html>

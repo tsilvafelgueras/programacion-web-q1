@@ -1,16 +1,3 @@
-// let nombre = prompt("Inserte su nombre:")
-
-// console.log(nombre)
-
-// let array0 = [0,1,2,3]
-// for(let x=0; x<4; x++){
-//     console.log(array[x])
-// }
-
-// let personas = [
-//     {id:1, first_name:"trinidad",last_name:"silva", edad:19},
-//     {id:2, first_name:"agus",last_name:"edaliab", edad:19}
-// ]
 
 // console.log(personas.length)
 // for(let i=0; i<personas.length; i++){
@@ -33,7 +20,6 @@
 // //POP : elimina el ultimo elemento
 // array1.pop()
 
-// //Push: añade un elemento al array
 
 // array1.push(3.14)
 // console.log(array1);
@@ -41,9 +27,25 @@
 // let nombreCompra = document.getElementById("name")
 // // nombreCompra.innerHTML= 
 
-// // onClick=
+let almacenar = document.getElementById("enviarDatos");
+almacenar.addEventListener("click", guardar);
 
-document.getElementById("enviarDatos").addEventListener("click", guardar);
+function guardar() {
+  console.log("funcione");
+  // Resto del código para guardar los datos en el localStorage
+}
+
+window.onload = function cargarDatos() {
+  // Resto del código para cargar los datos del localStorage en los campos
+    document.getElementById("name").value = localStorage.getItem("name");
+    document.getElementById("lastname").value = localStorage.getItem("lastname");
+    document.getElementById("cellphone").value = localStorage.getItem("cellphone");
+    document.getElementById("mail").value = localStorage.getItem("mail");
+    document.getElementById("consultbox").value = localStorage.getItem("consultbox");
+}
+
+let dat = document.getElementById("enviarDatos");
+dat.addEventListener("click", sendDatos);
 
 function guardar(){
     console.log("funcione")
@@ -57,14 +59,6 @@ function guardar(){
     localStorage.setItem("cellphone", cellphone);
     localStorage.setItem("mail", mail);
     localStorage.setItem("consultbox", consultbox);
-}
-
-window.onload = function cargarDatos() {
-    document.getElementById("name").value = localStorage.getItem("name");
-    document.getElementById("lastname").value = localStorage.getItem("lastname");
-    document.getElementById("cellphone").value = localStorage.getItem("cellphone");
-    document.getElementById("mail").value = localStorage.getItem("mail");
-    document.getElementById("consultbox").value = localStorage.getItem("consultbox");
 }
 
 document.getElementById("enviarDatos").addEventListener("click", sendDatos);

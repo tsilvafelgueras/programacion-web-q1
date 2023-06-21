@@ -64,9 +64,6 @@ a:hover{
 .icono{
     height: 4vw;
 }
-/* div.navegador ul li a.current{
-    color: red;
-} */
 
 /*a partir de aca va el main*/
 
@@ -99,10 +96,6 @@ h2{
     color: black;
 
 }
-
-/* a:hover{
-
-} */
 
 #n1{
     font-size: 25px;
@@ -211,6 +204,35 @@ h6{
 #autoclass{
     margin: 1vw;
 }
+#one2one{
+    margin: 1vw;
+}
+#brideswork{
+    margin: 1vw;
+}
+#reservAutomaq{
+    margin: 20%;
+    font-size: 1.5rem; /* Ajusta el tamaño de fuente según tus preferencias */
+}
+#reservAutomaq:hover {
+transform: scale(1.1); /* Agrega un efecto de escala al pasar el cursor sobre el botón */
+}
+ 
+#reservOne2one{
+    margin: 20%;
+    font-size: 1.5rem; /* Ajusta el tamaño de fuente según tus preferencias */
+}
+#reservOne2one:hover {
+transform: scale(1.1); /* Agrega un efecto de escala al pasar el cursor sobre el botón */
+}
+
+#reservBrides{
+    margin: 20%;
+    font-size: 1.5rem; /* Ajusta el tamaño de fuente según tus preferencias */
+}
+#reservBrides:hover {
+transform: scale(1.1); /* Agrega un efecto de escala al pasar el cursor sobre el botón */
+}
 
 @media screen and (max-width: 800px) {
     .column {
@@ -248,6 +270,21 @@ h6{
     }
     #autoclass{
         margin: 4vw;
+    }
+    #one2one{
+        margin: 4vw;
+    }
+    #brideswork{
+        margin: 4vw;
+    }
+    #reservAutomaq{
+        margin:0 20% 5% 20%;
+    }
+    #reservOne2one{
+        margin:0 20% 5% 20%;
+    }
+    #reservBrides{
+        margin:0 20% 5% 20%;
     }
 }
 @media screen and (max-width: 600px) {
@@ -287,16 +324,13 @@ input{
     margin: auto;
 }
 
-/* h5{
-    color: WHITE;
-} */
 
 .carousel-control-next-icon, .carousel-control-prev-icon{
     display: none;
 }
 
 .carousel-item{
-    transition: transform .7s ease-in-out;;
+    transition: transform .7s ease-in-out;
 }
 
 #p2{
@@ -320,23 +354,33 @@ input{
 }
 
 #listita{
-    padding-top: 0%;
+    padding-top: 10%;
     margin-left: 20px;
 }
 
+#deepinfo{
+    background-color: white;
+    padding: 0.01vw 0 0.5vw 0;
+}
 
+#cardsinfo{
+    background-color: black;
+    color: white;
+    margin-top: 2vw;
+}
 
-/* #reserv{
-    width: 20%;
-    margin-top: 20%;
-} */
+#int{
+    margin-bottom: 5vw;
+}
 
-#reserv {
-    margin: 20%;
-    font-size: 1.5rem; /* Ajusta el tamaño de fuente según tus preferencias */
-  }
-  
-  #reserv:hover {
-    transform: scale(1.1); /* Agrega un efecto de escala al pasar el cursor sobre el botón */
-  }
-  
+#cajitaAuto{
+    box-shadow: 0 0 20px 0 black;
+}
+
+#cajitaOne{
+    box-shadow: 0 0 20px 0 black;
+}
+
+#cajitaBrides{
+    box-shadow: 0 0 20px 0 black;
+}

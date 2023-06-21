@@ -39,7 +39,7 @@
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="./workshops.html#autoclass">AUTOMAKEUP</a></li>
-                <li><a class="dropdown-item" href="./workshops.html#one2one">ONE2ONE</a></li>
+                <li><a class="dropdown-item" href="./workshops.html#one2one">ONE TO ONE</a></li>
                 <li><a class="dropdown-item" href="./workshops.html#brideswork">BRIDES</a></li>
               </ul>
             </li>
@@ -79,46 +79,48 @@
       </div>
       <div class="column2">
         <h5 class="contact">CONTACT LULI</h5>
-        <form class="formulario">
-          <div class="row g-2">
-            <div class="col-md">
-              <div class="form-floating">
-                <input type="text" class="form-control" id="name" placeholder="Nombre" autocomplete="additional-name">
-                <label for="name">Nombre</label>
+        <form class="formulario" target="_blank" action="https://formsubmit.co/tsilvafelgueras@itba.edu.ar" method="POST">
+          <div class="form-group">
+            <div class="row g-2">
+              <div class="col-md">
+                <div class="form-floating">
+                  <input type="text" class="form-control" id="name" placeholder="Nombre" autocomplete="additional-name" required>
+                  <label for="name">Nombre</label>
+                </div>
+              </div>
+              <div class="col-md">
+                <div class="form-floating">
+                  <input type="text" class="form-control" id="lastname" placeholder="Apellido" required>
+                  <label for="lastname">Apellido</label>
+                </div>
               </div>
             </div>
-            <div class="col-md">
-              <div class="form-floating">
-                <input type="text" class="form-control" id="lastname" placeholder="Apellido">
-                <label for="lastname">Apellido</label>
+            <div class="row g-2">
+              <div class="col-md">
+                <div class="form-floating">
+                  <input type="number" class="form-control" id="cellphone" placeholder="Celular" required>
+                  <label for="cellphone">Celular</label>
+                </div>
+              </div>
+              <div class="col-md">
+                <div class="form-floating">
+                  <input type="email" class="form-control" id="mail" placeholder="name@example.com" required>
+                  <label for="mail">Email</label>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="row g-2">
-            <div class="col-md">
-              <div class="form-floating">
-                <input type="number" class="form-control" id="cellphone" placeholder="Celular">
-                <label for="cellphone">Celular</label>
+            <div class="row g-2">
+              <div class="col-md">
+                <div class="form-floating">
+                  <textarea name="message" class="form-control" placeholder="Leave a comment here" id="consultbox" style="height: 100px" required></textarea>
+                  <label for="consultbox">Consulta</label>
+                </div>
               </div>
             </div>
-            <div class="col-md">
-              <div class="form-floating">
-                <input type="email" class="form-control" id="mail" placeholder="name@example.com">
-                <label for="mail">Email</label>
+            <div class="row g-2">
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary" id="enviarDatos">Enviar consulta</button>
               </div>
-            </div>
-          </div>
-          <div class="row g-2">
-            <div class="col-md">
-              <div class="form-floating">
-                <textarea class="form-control" placeholder="Leave a comment here" id="consultbox" style="height: 100px"></textarea>
-                <label for="floatingTextarea2">Consulta</label>
-              </div>
-            </div>
-          </div>
-          <div class="row g-2">
-            <div class="col-12">
-              <button type="button" class="btn btn-primary" id="enviarDatos">Enviar</button>
             </div>
           </div>
         </form>
