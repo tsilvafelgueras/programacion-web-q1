@@ -3,7 +3,7 @@
 }
 
 header{
-    background-color: black;
+    background-color: #000;
     width: 100%;
     margin:0;
     position: sticky;
@@ -13,18 +13,19 @@ header{
 
 body{
     margin:0;
-    background-color: black;
+    background-color: #000;
 }
 
 a{
     text-decoration: none;
+    color: inherit;
 }
 #navegador{
     padding: 1vw;
 }
 .navbar-brand{
     padding-left: 2vw;
-    color: white;
+    color: #fff;
     text-decoration: none;
     font-weight: 1000;
     font-size: 1.7rem;
@@ -36,18 +37,23 @@ a{
 
 .navbar-nav{
     list-style-type: none;
-    /* align-items: flex-start; */
+    
 }
 .navbar-nav li a{
-    color: white;    
+    color: #fff; 
     text-decoration: none;
     text-align: center;
+    font-size: 1.3rem;
 }
 
 .dropdown-menu{
-    color: white;
-    background-color: black;
+    background-color: #000;
 }
+
+.dropdown-item {
+    color: #fff;
+  }
+
 .nav-link{
     color: white!important;
 }
@@ -68,8 +74,8 @@ a:hover{
 /*a partir de aca va el main*/
 
 h2{
-    color: black; 
-    font-size: 60px;
+    color: #fff;
+    font-size: 5rem;
 }
 
 .cajados{
@@ -77,37 +83,10 @@ h2{
 }
 
 
-#segunda{
-    border: none;
-    margin: 20px;
-}
-
-.listas{ 
-    background-color: lightblue; 
-    color: black;
-    overflow: hidden;
-    border: none;
-    list-style-type: none;
-}
-
-.listas li a{
-    justify-content: center;
-    text-decoration: none;
-    color: black;
-
-}
-
-#n1{
-    font-size: 25px;
-}
-
-#n2{
-    font-size: 20px;
-}
-
 footer{
-    background-color: black;
+    background-color: #000;
     text-align: center;
+    padding: 1rem;
 }
 
 .foot{
@@ -119,8 +98,8 @@ footer{
 }
 
 h6{
-    color: white;
-    font-size: 12px;
+    color: #fff;
+    font-size: 0.9rem;
     margin: 0;
     font-family:'Montserrat',sans-serif;
     font-weight: 400;
@@ -171,6 +150,7 @@ h6{
     /* margin-left: 5vw; */
     border-radius: 10px;
 }
+
 .cardintro{
     width: 40vw;
     background-color: white;
@@ -189,17 +169,25 @@ h6{
     margin-left: 1.5vw;
     margin-top: 0.5vw;
     font-weight: bold;
-    font-size: 1.4vw;
+    font-size: 2rem;
     margin-bottom: 0;
 }
 .card-header{
     font-size: 1.5vw;
     padding-left: 1vw;
 }
-/* .card-body{
-    padding: 0.5vw;
-    padding-bottom: 1vw;
-} */
+.card-text{
+    margin-bottom: 0;
+}
+.btn-primary {
+    margin-top: 1rem;
+}
+  
+.workshop {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 2rem;
+}
 
 #autoclass{
     margin: 1vw;
@@ -232,6 +220,12 @@ transform: scale(1.1); /* Agrega un efecto de escala al pasar el cursor sobre el
 }
 #reservBrides:hover {
 transform: scale(1.1); /* Agrega un efecto de escala al pasar el cursor sobre el botón */
+}
+
+#cardContact{
+    width: 30rem;
+    margin: auto;
+    margin-top: 2vw;
 }
 
 @media screen and (max-width: 800px) {
@@ -286,6 +280,11 @@ transform: scale(1.1); /* Agrega un efecto de escala al pasar el cursor sobre el
     #reservBrides{
         margin:0 20% 5% 20%;
     }
+
+    #cardContact{
+        margin: auto;
+        width: 21rem;
+    }
 }
 @media screen and (max-width: 600px) {
     .column {
@@ -320,11 +319,16 @@ input{
     font-weight: lighter;
 }
 
-.card{
-    margin: auto;
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
 }
-
-
+.card:hover {
+    transform: scale(1.02);
+}
+  
 .carousel-control-next-icon, .carousel-control-prev-icon{
     display: none;
 }
@@ -358,15 +362,20 @@ input{
     margin-left: 20px;
 }
 
+#listita li{
+    margin-bottom: 0.5rem;
+}
+
 #deepinfo{
     background-color: white;
     padding: 0.01vw 0 0.5vw 0;
+    margin-top: 3rem;
 }
 
 #cardsinfo{
     background-color: black;
     color: white;
-    margin-top: 2vw;
+    margin-top: 2rem;
 }
 
 #int{
@@ -384,3 +393,4 @@ input{
 #cajitaBrides{
     box-shadow: 0 0 20px 0 black;
 }
+

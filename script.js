@@ -35,14 +35,14 @@ function guardar() {
   // Resto del código para guardar los datos en el localStorage
 }
 
-window.onload = function cargarDatos() {
-  // Resto del código para cargar los datos del localStorage en los campos
-    document.getElementById("name").value = localStorage.getItem("name");
-    document.getElementById("lastname").value = localStorage.getItem("lastname");
-    document.getElementById("cellphone").value = localStorage.getItem("cellphone");
-    document.getElementById("mail").value = localStorage.getItem("mail");
-    document.getElementById("consultbox").value = localStorage.getItem("consultbox");
-}
+// window.onload = function cargarDatos() {
+//   // Resto del código para cargar los datos del localStorage en los campos
+//     document.getElementById("name").value = localStorage.getItem("name");
+//     document.getElementById("lastname").value = localStorage.getItem("lastname");
+//     document.getElementById("cellphone").value = localStorage.getItem("cellphone");
+//     document.getElementById("mail").value = localStorage.getItem("mail");
+//     document.getElementById("consultbox").value = localStorage.getItem("consultbox");
+// }
 
 let dat = document.getElementById("enviarDatos");
 dat.addEventListener("click", sendDatos);
