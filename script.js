@@ -64,5 +64,5 @@ function guardar(){
 document.getElementById("enviarDatos").addEventListener("click", sendDatos);
 
 function sendDatos(){
-    alert("¡Gracias por enviar tu consulta! Te estaremos respondiendo a través del mail ingresado.");
+    alert("¡Gracias por enviar tu consulta! Te estaremos respondiendo en breve a través del mail ingresado.");
 }

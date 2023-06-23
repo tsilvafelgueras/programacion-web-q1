@@ -22,6 +22,7 @@ a{
 }
 #navegador{
     padding: 1vw;
+    box-shadow: 0 0 10px 0 rgba(52, 51, 51, 0.5);
 }
 .navbar-brand{
     padding-left: 2vw;
@@ -43,7 +44,7 @@ a{
     color: #fff; 
     text-decoration: none;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .dropdown-menu{
@@ -75,7 +76,8 @@ a:hover{
 
 h2{
     color: #fff;
-    font-size: 5rem;
+    font-size: 4rem;
+    margin-top: 1vw;
 }
 
 .cajados{
@@ -86,11 +88,11 @@ h2{
 footer{
     background-color: #000;
     text-align: center;
-    padding: 1rem;
+    padding: 0.02rem;
 }
 
 .foot{
-    height: 54px;
+    height: 40px;
     display: table-cell;
     vertical-align: middle;
     width: 1%;
@@ -99,7 +101,7 @@ footer{
 
 h6{
     color: #fff;
-    font-size: 0.9rem;
+    font-size: 12px;
     margin: 0;
     font-family:'Montserrat',sans-serif;
     font-weight: 400;
@@ -182,7 +184,19 @@ h6{
 .btn-primary {
     margin-top: 1rem;
 }
-  
+.btn-outline-secondary {
+    color: #000;
+    border-color: #000;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+#botonesWork{
+    margin-top: 1rem;
+} 
+.btn-outline-secondary:hover,
+.btn-outline-secondary:active {
+    background-color: #000;
+    color: #fff;
+}
 .workshop {
     text-align: center;
     color: #fff;
@@ -203,7 +217,7 @@ h6{
     font-size: 1.5rem; /* Ajusta el tamaño de fuente según tus preferencias */
 }
 #reservAutomaq:hover {
-transform: scale(1.1); /* Agrega un efecto de escala al pasar el cursor sobre el botón */
+transform: scale(1.05); /* Agrega un efecto de escala al pasar el cursor sobre el botón */
 }
  
 #reservOne2one{
@@ -211,7 +225,7 @@ transform: scale(1.1); /* Agrega un efecto de escala al pasar el cursor sobre el
     font-size: 1.5rem; /* Ajusta el tamaño de fuente según tus preferencias */
 }
 #reservOne2one:hover {
-transform: scale(1.1); /* Agrega un efecto de escala al pasar el cursor sobre el botón */
+transform: scale(1.05); /* Agrega un efecto de escala al pasar el cursor sobre el botón */
 }
 
 #reservBrides{
@@ -219,13 +233,19 @@ transform: scale(1.1); /* Agrega un efecto de escala al pasar el cursor sobre el
     font-size: 1.5rem; /* Ajusta el tamaño de fuente según tus preferencias */
 }
 #reservBrides:hover {
-transform: scale(1.1); /* Agrega un efecto de escala al pasar el cursor sobre el botón */
+transform: scale(1.05); /* Agrega un efecto de escala al pasar el cursor sobre el botón */
 }
 
 #cardContact{
     width: 30rem;
     margin: auto;
     margin-top: 2vw;
+}
+
+.subRes{
+    margin: auto;
+    padding: 1vw;
+    font-size: auto;
 }
 
 @media screen and (max-width: 800px) {
@@ -285,6 +305,11 @@ transform: scale(1.1); /* Agrega un efecto de escala al pasar el cursor sobre el
         margin: auto;
         width: 21rem;
     }
+
+    .subRes{
+        padding: 4vw;
+        font-size: 1.2rem;
+    }
 }
 @media screen and (max-width: 600px) {
     .column {
@@ -326,7 +351,7 @@ input{
     transition: transform 0.3s ease;
 }
 .card:hover {
-    transform: scale(1.02);
+    transform: scale(1.002);
 }
   
 .carousel-control-next-icon, .carousel-control-prev-icon{
@@ -394,3 +419,26 @@ input{
     box-shadow: 0 0 20px 0 black;
 }
 
+/* .img-fluid {
+    padding: 20px;
+    width: 60%;
+} */
+
+#cont{
+    background-color: white;
+    padding: 1vw 1vw 1vw 1vw;
+    margin: 1vw;
+    border-radius: 20px;
+}
+
+.form-floating{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.form-select{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+#envRes{
+    margin: 1rem;
+}
