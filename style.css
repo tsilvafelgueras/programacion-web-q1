@@ -247,6 +247,19 @@ transform: scale(1.05); /* Agrega un efecto de escala al pasar el cursor sobre e
     padding: 1vw;
     font-size: auto;
 }
+#cardTitInfo{
+    font-size: 2.5vw;
+}
+
+#listita li{
+    margin-bottom: 0.5rem;
+    font-size: 1.2vw;
+}
+.img-fluid {
+    width: 50%;
+    border-radius: 5px;
+    margin: 2vw;
+}
 
 @media screen and (max-width: 800px) {
     .column {
@@ -309,6 +322,19 @@ transform: scale(1.05); /* Agrega un efecto de escala al pasar el cursor sobre e
     .subRes{
         padding: 4vw;
         font-size: 1.2rem;
+    }
+    #cardTitInfo{
+        font-size: 8vw;
+        margin-top: 10px!important;    
+    }
+    
+    #listita li{
+        margin-bottom: 0.5rem;
+        font-size: 4vw;
+    }
+    .img-fluid{
+        margin-top: 20px;
+        width: 70%;
     }
 }
 @media screen and (max-width: 600px) {
@@ -383,12 +409,7 @@ input{
 }
 
 #listita{
-    padding-top: 10%;
     margin-left: 20px;
-}
-
-#listita li{
-    margin-bottom: 0.5rem;
 }
 
 #deepinfo{
@@ -419,11 +440,6 @@ input{
     box-shadow: 0 0 20px 0 black;
 }
 
-/* .img-fluid {
-    padding: 20px;
-    width: 60%;
-} */
-
 #cont{
     background-color: white;
     padding: 1vw 1vw 1vw 1vw;
@@ -441,4 +457,7 @@ input{
 
 #envRes{
     margin: 1rem;
+    margin-left: 1rem;
 }
+
+

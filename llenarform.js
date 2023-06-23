@@ -71,7 +71,8 @@ function generarPDF() {
 
         // Línea como footer
         doc.setLineWidth(0.3);
-        doc.line(10, 190, 200, 190);
+        const footerY = 200;
+        doc.line(10, footerY, 200, footerY);
 
         doc.save("reserva.pdf");
     };
