@@ -1,4 +1,3 @@
-
 // console.log(personas.length)
 // for(let i=0; i<personas.length; i++){
 //     console.log(personas[i].first_name)
@@ -32,7 +31,6 @@ almacenar.addEventListener("click", guardar);
 
 function guardar() {
   console.log("funcione");
-  // Resto del código para guardar los datos en el localStorage
 }
 
 // window.onload = function cargarDatos() {
