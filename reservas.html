@@ -36,7 +36,7 @@
                         <li><a class="dropdown-item" href="./workshops.html#cardBrides">BRIDES</a></li>
                       </ul>
                   </li>
-                  <li class="nav-item dropdown">
+                  <!-- <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         SERVICES
                       </a>
@@ -45,7 +45,7 @@
                         <li><a class="dropdown-item" href="./services.html#brides">BRIDES</a></li>
                         <li><a class="dropdown-item" href="./services.html#xv">XV</a></li>
                       </ul>
-                  </li>
+                  </li> -->
                   <li class="nav-item">
                     <a class="nav-link" href="./contact.html">CONTACT</a>
                   </li>
@@ -67,13 +67,13 @@
               <div class="row g-3">
                 <div class="col">
                   <div class="form-floating">
-                    <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre" id="nameRes">
+                    <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre" id="nameRes" name="Nombre">
                     <label for="name">Nombre</label>
                   </div>
                 </div>
                 <div class="col">
                   <div class="form-floating">
-                    <input type="text" class="form-control" placeholder="Last name" aria-label="Apellido" id="lastnameRes">
+                    <input type="text" class="form-control" placeholder="Last name" aria-label="Apellido" id="lastnameRes" name="Apellido">
                     <label for="name">Apellido</label>
                   </div>
                 </div>
@@ -81,13 +81,13 @@
               <div class="row g-3">
                 <div class="col">
                   <div class="form-floating">
-                    <input type="number" class="form-control" placeholder="Celular" required id="cellRes">
+                    <input type="number" class="form-control" placeholder="Celular" required id="cellRes" name="Celular" >
                     <label for="cellphone">Celular</label>
                   </div>
                 </div>
                 <div class="col">
                   <div class="form-floating">
-                    <input type="email" class="form-control" id="emailRes" placeholder="name@example.com" required>
+                    <input type="email" class="form-control" id="emailRes" placeholder="name@example.com" required name="Mail">
                     <label for="emailRes">Email</label>
                   </div>
                 </div>
@@ -131,6 +131,7 @@
     <footer>
         <div class="foot">
             <h6>© 2023 de la Vega Make Up | Site Design: TSF</h6>
+            <img src="Fotos Pagina/logodlv.png" id="logo" alt="logo" style="display: none;">
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
