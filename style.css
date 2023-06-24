@@ -22,7 +22,7 @@ a{
 }
 #navegador{
     padding: 1vw;
-    box-shadow: 0 0 10px 0 rgba(52, 51, 51, 0.5);
+    box-shadow: 0px 9px 10px 0 rgba(52, 51, 51, 0.5);
 }
 .navbar-brand{
     padding-left: 2vw;
@@ -79,7 +79,11 @@ h2{
     font-size: 4rem;
     margin-top: 1vw;
 }
-
+h3{
+    color: #fff;
+    font-size: 3rem;
+    margin-top: 1vw;
+}
 .cajados{
     margin-top: 40px;
 }
@@ -148,18 +152,14 @@ h6{
     justify-content: center;
 }
 #carousel{
-    width: 39vw;
-    /* margin-left: 5vw; */
-    border-radius: 10px;
+    width: 35vw;
+    padding-top: 2vw;
 }
 
 .cardintro{
     width: 40vw;
-    background-color: white;
     margin-left: 3vw;
     align-items: center;
-    border: 1px solid rgba(0, 0, 0, .125);
-    border-radius: 10px;
 }
 .card-text{
     padding: 1.5vw;
@@ -173,6 +173,21 @@ h6{
     font-weight: bold;
     font-size: 2rem;
     margin-bottom: 0;
+}
+.titulo{
+    color: #fff;
+    margin-left: 1.5vw;
+    margin-top: 1vw;
+    font-weight: bold;
+    font-size: 1.7rem;
+    margin-bottom: 0;
+}
+#abm{
+    font-weight: bold;
+    margin-top: 0;
+}
+#abBody{
+    color: #fff;
 }
 .card-header{
     font-size: 1.5vw;
@@ -190,7 +205,7 @@ h6{
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 #botonesWork{
-    margin-top: 1rem;
+    margin: 2vw 0vw 1vw 0vw;
 } 
 .btn-outline-secondary:hover,
 .btn-outline-secondary:active {
@@ -200,7 +215,10 @@ h6{
 .workshop {
     text-align: center;
     color: #fff;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    padding: 0.5vw;
+    background-color: #000;
+    box-shadow: 0 9px 10px 0 rgba(52, 51, 51, 0.5);
 }
 
 #autoclass{
@@ -240,6 +258,7 @@ transform: scale(1.05); /* Agrega un efecto de escala al pasar el cursor sobre e
     width: 30rem;
     margin: auto;
     margin-top: 2vw;
+    box-shadow: 8px 10px 20px 10px rgba(79, 79, 79, 0.5)
 }
 
 .subRes{
@@ -368,6 +387,7 @@ input{
     color: white;
     margin: 1vw;
     font-weight: lighter;
+    font-size: 2vw;
 }
 
 .card {
@@ -378,6 +398,7 @@ input{
 }
 .card:hover {
     transform: scale(1.002);
+    box-shadow: 0px 10px 20px 10px rgba(52, 51, 51, 0.5)
 }
   
 .carousel-control-next-icon, .carousel-control-prev-icon{
@@ -413,7 +434,7 @@ input{
 }
 
 #deepinfo{
-    background-color: white;
+    background-color: #000;
     padding: 0.01vw 0 0.5vw 0;
     margin-top: 3rem;
 }
@@ -425,7 +446,7 @@ input{
 }
 
 #int{
-    margin-bottom: 5vw;
+    margin-bottom: 3vw;
 }
 
 #cajitaAuto{
